@@ -1,0 +1,33 @@
+.basket-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.basket-item .actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.basket-item .actions button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.basket-item .info {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.basket-item .info div:nth-child(2) {
+  flex: 1;
+}
+
+.basket-item .info div:nth-child(2) p {
+  font-size: 14px;
+  color: #8d8887;
+}
